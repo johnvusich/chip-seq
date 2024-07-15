@@ -38,10 +38,10 @@ process {
 ```
 Save the nextflow.config file and return to your ChIP-seq directory.
 
-## Find your reference genome in ICER common-data OR download the reference genome and gtf files in your rnaseq directory
+## Find your reference genome in ICER common-data OR download the reference genome and gtf files in your directory
 The following organisms have updated reference genomes and gtf/gff3 files in common-data: human, mouse, rat, zebrafish, and Arabidopsis. The paths to those files can be found [here](https://github.com/johnvusich/reference-genomes).
 
-In your rnaseq directory, click `Open in Terminal` to enter a development node. Download the most recent genome primary assembly and gtf for the organism of interest from [Ensembl](https://ensembl.org/). Follow the instructions [here](https://github.com/johnvusich/reference-genomes) to download the reference genome for your organism of interest. This may take more than a few minutes. For example:
+In your directory, click `Open in Terminal` to enter a development node. Download the most recent genome primary assembly and gtf for the organism of interest from [Ensembl](https://ensembl.org/). Follow the instructions [here](https://github.com/johnvusich/reference-genomes) to download the reference genome for your organism of interest. This may take more than a few minutes. For example:
 ```
 wget https://ftp.ensembl.org/pub/release-108/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
 
